@@ -1,0 +1,79 @@
+{
+    "extensions.ignoreRecommendations":  false,
+
+    "workbench.colorTheme":   "One Dark Pro",
+    "workbench.iconTheme":    "vscode-icons",
+
+    "editor.fontSize":                         16,
+    "editor.fontFamily":                       "UDEV Gothic JPDOC, Ricty Diminished",
+    "editor.renderWhitespace":                 "boundary",
+    "editor.bracketPairColorization.enabled":  true,
+    "editor.guides.bracketPairs":              false,
+    "editor.wordWrap":                         "off",
+    "editor.snippetSuggestions":               "top",
+    "editor.wordSeparators":                   "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.stickyScroll.enabled":             true,
+    "editor.hover.enabled":                    "on",
+    "editor.accessibilitySupport":             "off",
+    "editor.unicodeHighlight.allowedCharacters": {
+        "（": true,
+        "）": true,
+        "：": true,
+    },
+
+    "files.trimFinalNewlines":        true,
+    "files.trimTrailingWhitespace":   true,
+    "files.insertFinalNewline":       true,
+    "files.autoSave":                 "afterDelay",
+    "files.autoSaveDelay":            1000,
+    "files.eol":                      "\n",
+    "files.exclude": {
+        "**/.git":             false,
+        "**/.vscode":          true,
+        "**/node_modules":     true,
+        "fastapi":             true,
+        "**/__pycache__":      true,
+        "**/__init__.py":      true,
+        "docker":              true,
+        "docker-compose.yml":  true,
+    },
+
+    "emmet.includeLanguages": {
+        "javascript": "html"
+    },
+    "emmet.triggerExpansionOnTab":      true,
+    "emmet.showSuggestionsAsSnippets":  true,
+
+    "explorer.autoReveal":           false,
+    "explorer.compactFolders":       false,
+    "explorer.confirmDelete":        true,
+    "explorer.confirmDragAndDrop":   true,
+
+    "terminal.integrated.fontSize":          16,
+    "terminal.integrated.cursorBlinking":    true,
+    "terminal.integrated.copyOnSelection":   false,
+
+    "css.lint.unknownAtRules": "ignore",
+
+    "[php]": {
+        "editor.tabSize": 4,
+    },
+    "[html]": {
+        "editor.tabSize": 2,
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+    },
+}
